@@ -2,5 +2,4 @@ dist: jammy
 language: shell
 install:
   - netstat -tulpn
-  - skip 
   - netstat -tulpn | grep tcp
