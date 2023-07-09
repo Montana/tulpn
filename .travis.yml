@@ -1,2 +1,5 @@
+language: generic
 install:
   - netstat -tulpn
+  - skip 
+  - netstat -tulpn | grep tcp
