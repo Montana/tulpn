@@ -1,4 +1,5 @@
-language: generic
+dist: jammy
+language: shell
 install:
   - netstat -tulpn
   - skip 
